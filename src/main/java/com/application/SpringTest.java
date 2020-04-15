@@ -5,7 +5,6 @@ import com.SpringConfig;
 import com.data.entity.Wife;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.stereotype.Component;
 
 /*
  * 创建人 Baijl
@@ -27,7 +26,6 @@ public class SpringTest {
         //Wife [] wives=new Wife[6];
         //wives[0]=mydoor;
         //System.out.println(wives[0].getAddress());
-
 
         //使用main方法进行测试的时候
         /**
