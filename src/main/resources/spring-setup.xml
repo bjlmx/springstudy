@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="mx" class="com.data.entity.Wife">
+        <constructor-arg index="0" value="马秀2"/>
+        <constructor-arg index="1" value="25" />
+        <constructor-arg index="2" value="山东省郓城县" />
+    </bean>
+    <bean id="mydoor" class="com.data.entity.AlarmDoor"></bean>
+</beans>
