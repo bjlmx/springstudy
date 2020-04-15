@@ -13,7 +13,6 @@ import org.springframework.stereotype.Component;
  * 创建时间 15:13
  * 描述：
  */
-@Component
 public class SpringTest {
     @Autowired
     private Wife wife;
